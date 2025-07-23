@@ -1,0 +1,225 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ img{
+  display: block;
+ }
+ .active{
+  background-color: #1ABC9C;
+  padding: 5px;
+ }
+ .Nav{
+  background-color: #2C3E50;
+ }
+.logo h1 a{
+  text-decoration: none;
+  color: white;
+}
+.Nav .container .list li{
+  list-style: none;
+  
+}
+.Nav .container .list a{
+  text-decoration: none;
+  color: white;
+}
+.footer{
+  background-color: #2C3E50;
+  color: white;
+}
+.footer .icons {
+  display: flex;             
+  justify-content: center;   
+  gap: 15px;                 
+  padding: 10px 0;
+  margin-right: 100px;      
+}
+
+.footer .icons i {
+  width: 25px;
+  height: 25px;
+  display: flex;             
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.footerDown{
+  background-color: #1A252F;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.HomeParent{
+  background-color: #18AD8F;
+  height: 50vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: white;
+  padding-top:100px;
+}
+.HomeParent .image{
+  width: 200px;
+}
+.HomeParent .image img{
+  width: 100%;
+}
+.AboutParent{
+    background-color: #18AD8F;
+  height: 75vh;
+  color: white;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutParent .icon::after{
+  content: "";
+  width: 75px;
+  height: 5px;
+  background-color: white;
+  position:relative;
+  right: 10%;
+}
+.AboutParent .icon::before{
+  content: "";
+  width: 75px;
+  height: 5px;
+  background-color: white;
+  position:relative;
+  left: 10%;
+}
+.AboutParent .icon i{
+  position: relative;
+  bottom: 5px;
+}
+/* .PortifolioParent{
+  height: 75vh;
+} */
+.PortifolioParent .header .icon::before{
+  content: "";
+  width: 75px;
+  height: 5px;
+  background-color: black;
+  position:relative;
+  left: -15%;
+}
+.PortifolioParent .header .icon::after{
+  content: "";
+  width: 75px;
+  height: 5px;
+  background-color: black;
+  position:relative;
+  right: -15%;
+}
+.PortifolioParent .header .icon i{
+  position: relative;
+  bottom: 5px;
+}
+.container .items{
+  width:100%;
+  position: relative;
+}
+.container .items .image{
+  width: 100%;
+}
+.container .items .image img{
+  width: 100%;
+}
+.container .items .layer{
+  background-color: #29B197;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.container .items .layer i{
+  font-size: 100px;
+  color: white;
+}
+.container .items:hover .layer{
+  opacity: 1;
+}
+.ContactParent .icon::before{
+  content: "";
+  width: 75px;
+  height: 5px;
+  background-color: black;
+  position:relative;
+  left: -15%;
+}
+.ContactParent .icon::after{
+  content: "";
+  width: 75px;
+  height: 5px;
+  background-color: black;
+  position:relative;
+  right: -15%;
+}
+.ContactParent .icon i{
+  position: relative;
+  bottom: 5px;
+}
+input{
+  width: 50%;
+  height: 40px;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: gray solid 1px;
+  margin-left: 25%;
+}
+button{
+  background-color: #1ABC9C;
+  color: white;
+  margin-left: 25%;
+  border: solid #1ABC9C 1px;
+  margin-bottom: 15px;
+}
